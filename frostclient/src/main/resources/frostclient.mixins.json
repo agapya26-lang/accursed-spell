@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.frost.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinMinecraftClient",
+    "MixinGameRenderer",
+    "MixinClientPlayerEntity",
+    "MixinWorldRenderer",
+    "MixinClientPlayerInteractionManager"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

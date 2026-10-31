@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "frostclient",
+  "version": "${version}",
+  "name": "FrostClient",
+  "description": "frostclient v1 - undetected combat & automation client",
+  "authors": ["sussy"],
+  "contact": { "discord": "https://discord.gg/RDeKV57sc5" },
+  "license": "MIT",
+  "icon": "assets/frostclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.frost.client.FrostClient"]
+  },
+  "mixins": ["frostclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
